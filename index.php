@@ -63,7 +63,7 @@ body{
     float: left;
 }
 
-.informasi{
+.info{
     padding-top: 20px;
     text-align: center;
 }
@@ -80,7 +80,7 @@ body{
     border-bottom: dashed rgb(159,205,241) 1px;
 }
 
-.profil1{
+.profile1{
     margin-top: -18px;
     border-radius: 5px 5px 0px 0px;
     background-color: rgb(57,160,255);
@@ -88,12 +88,12 @@ body{
     color: white;
 }
 
-#profil1Id{
+#profile1Id{
     font-size: 18px;
     
 }
 
-.profilSpan{
+.profileSpan{
     margin-left: 20px;
     padding-top: 11px;
 }
@@ -104,7 +104,7 @@ span.fontGrey{
     margin: 0px;
 }
 
-.informasiAkun1{
+.accountInfo1{
     padding: 0px;
     text-align: left;
     margin-left: 25px;
@@ -112,7 +112,7 @@ span.fontGrey{
     color: rgb(71,114,255);
 }
 
-.informasiAkun{
+.accountInfo{
     padding: 0px;
     text-align: left;
     margin-left: 25px;
@@ -134,17 +134,17 @@ span.fontGrey{
 </head>
 <body>
 <header>
-        <p id="EzChineseP">
-            <a id="EzChineseImgHref" href="index.html">
+        <p id="GlowKidsP">
+            <a id="GlowKidsImgHref" href="index.html">
                 <object align="center" width="140px" height="110px" data="Pictures/Billy In Hat.png"></object>
-            </a>    Ez Chinese
+            </a>    Glow Kids
         </p>
         
         <p id="navBar">
             <a class="navbarPaddingLeft" href="index.html">Home       </a>
             <a class="navbarPaddingLeft" href="courses.html">Courses       </a>
             <a class="navbarPaddingLeft" href="superQuiz.html">Super Quiz       </a>
-            <a class="navbarPaddingLeft" href="tentang.html">About         </a>
+            <a class="navbarPaddingLeft" href="about.html">About         </a>
             <a class="navbarPaddingRightLeft" href="registration.html">Login</a>
         </p>
     </header>
@@ -152,30 +152,30 @@ span.fontGrey{
     <!-- Body -->
 
 <div class="container1">
-    <div id="profil1Id" class="fontGrey profil1"> 
-        <p class="profilSpan"> Profil </p> 
+    <div id="profile1Id" class="fontGrey profile1"> 
+        <p class="profileSpan"> Profile </p> 
     </div><br>
-    <span class="fontGrey "><div class="informasiAkun1">Informasi Akun</div></span><br>
+    <span class="fontGrey "><div class="accountInfo1">Account Information</div></span><br>
     <div class="borderline1"></div><br>
-    <span class="fontGrey"><div class="informasiAkun"> <a class="a" href="registration.html">Edit Profile</a></div></span>
+    <span class="fontGrey"><div class="accountInfo"> <a class="a" href="registration.html">Edit Profile</a></div></span>
 </div>
 <!-- <div class="container2"></div> -->
 
 <div class="container" >
-    <p class="fontBlack informasi">Informasi Akun</p>
+    <p class="fontBlack info">Account Information</p>
     <div class="borderline"></div>
     <img src="Pictures/portrait.png" class="imgPortrait" alt=""> <br>
         <div class="fontGrey spanData">
             <?php
             if(isset($_POST['simpan'])){
-                $Nama=$_POST['Nama'];
-                echo nl2br("Nama : $Nama \n");
+                $Name=$_POST['Name'];
+                echo nl2br("Name : $Name \n");
 
                 $Gender=$_POST['Gender'];
-                echo nl2br("Jenis Kelamin : $Gender \n");
+                echo nl2br("Gender : $Gender \n");
                 
-                $Age=$_POST['Umur'];
-                echo nl2br("Umur : $Age Tahun \n");
+                $Age=$_POST['Age'];
+                echo nl2br("Age : $Age years old \n");
 
                 $Username=$_POST['Username'];
                 echo nl2br("Username : $Username \n");
@@ -192,14 +192,14 @@ span.fontGrey{
 
   <div class="footerPadding"></div>
     <footer>
-        <address>
-            <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2022 Ez Chinese</p>
-            <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 08123456789</p>
-            <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : ezchinese@gmail.com</p>
-            <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @ezchinese</p>
-            <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> EzChinese.com Jepara Tech Ltd. </p>
-        </address>
-        </footer>
+    <address>
+        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2022 Ez Chinese</p>
+        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 08123456789</p>
+        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : ezchinese@gmail.com</p>
+        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @ezchinese</p>
+        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> EzChinese.com Jepara Tech Ltd. </p>
+    </address>
+    </footer>
 
 </body>
 </html>
