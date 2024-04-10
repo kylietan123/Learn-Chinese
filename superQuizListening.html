@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>super Quiz</title>
+    <title>Super Quiz</title>
     <link rel="stylesheet" href="superQuizListening.css">
 </head>
 <body>
     
     <header>
-        <p id="EzChineseP">
-            <a id="EzChineseImgHref" href="index.html">
+        <p id="GlowKidsP">
+            <a id="GlowKidsImgHref" href="index.html">
                 <object align="center" width="140px" height="110px" data="Pictures/Billy In Hat.png"></object>
-            </a>    Ez Chinese
+            </a>    Glow Kids
         </p>
         
         <p id="navBar">
             <a class="navbarPaddingLeft" href="index.html">Home        </a>
             <a class="navbarPaddingLeft" href="courses.html">Courses       </a>
             <a class="navbarPaddingLeft" href="superQuiz.html">Super Quiz       </a>
-            <a class="navbarPaddingLeft" href="tentang.html">About         </a>
+            <a class="navbarPaddingLeft" href="about.html">About         </a>
             <a class="navbarPaddingRightLeft" href="registration.html">Login</a>
         </p>
     </header>
@@ -50,8 +50,8 @@
     </div>
 
     <!-- Show Questions -->
-    <!-- <button onclick="popup()" >cek</button> -->
-    <div class="popup hilangDiv">
+    <!-- <button onclick="popup()" >check</button> -->
+    <div class="popup passDiv">
         <button onclick="close1()" class="cross" >asd</button>
         <form action="">
             <input type="text">
@@ -62,34 +62,34 @@
 
 
     
-    <span class="p hilangDiv" id="pi">1</span><span></span>
+    <span class="p passDiv" id="pi">1</span><span></span>
     
 
     
 
-    <div class="container hilangDiv" id="containerCopy">
+    <div class="container passDiv" id="containerCopy">
         
-        <p class="containerP hilangDiv fontBlack">HSK 1 Listening   </p>
+        <p class="containerP passDiv fontBlack">HSK 1 Listening   </p>
 
         <div class="fontBlack title">
-            <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span></span></p>
+            <p class="pRight">Listening - True or False  <span class="right"><span class="numbS"></span></span></p>
         </div>
 
         <div id="dragDivId" class="dragDiv">
         </div>
         
-        <button onmousedown="onMouseButton()" onmouseup="onMouseUp()" id="prevHover" class="prevButton hilangDiv fontBlack opacity">Pertanyaan Sebelumnya</button>
-        <button onmousedown="onMouseButton2()" onmouseup="onMouseUp2()" id="nextHover" class="nextButton hilangDiv fontBlack">Pertanyaan Selanjutnya</button>
+        <button onmousedown="onMouseButton()" onmouseup="onMouseUp()" id="prevHover" class="prevButton passDiv fontBlack opacity">Previous Question</button>
+        <button onmousedown="onMouseButton2()" onmouseup="onMouseUp2()" id="nextHover" class="nextButton passDiv fontBlack">Next Question</button>
     </div>
     
-    <div class="resultContainer hilangDiv">
+    <div class="resultContainer passDiv">
         <button class="bubble" onclick="resultClose()"> <span class="x fontBlack">X</span></button>
         <div id="container1Id" class="container1">
             
             <p class="containerP fontBlack">HSK 1 Listening   </p>
 
             <div class="fontBlack title">
-                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>1/5</span></p>
+                <p class="pRight">Listening - True or False  <span class="right"><span class="numbS"></span>1/5</span></p>
             </div>
             <!-- <p class="que1 spanLeft fontGrey showQueFont" id="que11"></p> -->
             <p class="que1 spanLeft fontGrey showQueFont"></p>
@@ -110,7 +110,7 @@
             <p class="containerP fontBlack">HSK 1 Listening   </p>
 
             <div class="fontBlack title">
-                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>2/5</span></p>
+                <p class="pRight">Listening - True or False  <span class="right"><span class="numbS"></span>2/5</span></p>
             </div>
 
             <p class="que1 spanLeft fontGrey showQueFont"></p>
@@ -129,7 +129,7 @@
             <p class="containerP fontBlack">HSK 1 Listening   </p>
 
             <div class="fontBlack title">
-                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>3/5</span></p>
+                <p class="pRight">Listening - True or False  <span class="right"><span class="numbS"></span>3/5</span></p>
             </div>
 
             <p class="que1 spanLeft fontGrey showQueFont"></p>
@@ -148,7 +148,7 @@
             <p class="containerP fontBlack">HSK 1 Listening   </p>
 
             <div class="fontBlack title">
-                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>4/5</span></p>
+                <p class="pRight">Listening - True or False  <span class="right"><span class="numbS"></span>4/5</span></p>
             </div>
 
             <p class="que1 spanLeft fontGrey showQueFont"></p>
@@ -168,7 +168,7 @@
             <p class="containerP fontBlack">HSK 1 Listening   </p>
 
             <div class="fontBlack title">
-                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>5/5</span></p>
+                <p class="pRight">Listening - True or False  <span class="right"><span class="numbS"></span>5/5</span></p>
             </div>
 
             <p class="que1 spanLeft fontGrey showQueFont"></p>
@@ -189,16 +189,16 @@
 
 <!-- Footer -->
 
-<div class="padding1 hilangDiv"></div>
+<div class="padding1 passDiv"></div>
 <footer>
     <address>
-        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2022 Ez Chinese</p>
-        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 08123456789</p>
-        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : ezchinese@gmail.com</p>
-        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @ezchinese</p>
-        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> EzChinese.com Jepara Tech Ltd. </p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2024 Glow Kids</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 0123456789</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : glowkids@gmail.com</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @glowkids</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> GlowKids.com Tech Ltd. </p>
     </address>
-    </footer>
+</footer>
 
     <script src="JavaScript/questionsListening.js"></script>
     <script src="JavaScript/scriptListening.js"></script>
