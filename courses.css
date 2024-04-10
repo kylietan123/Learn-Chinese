@@ -25,7 +25,7 @@ a {
     border-top: solid 2px rgb(222, 222, 222);
 }
 
-#EzChineseP {
+#GlowKidsP {
     padding-top: 0px;
     float: left;
     /* border: solid red; */
@@ -36,7 +36,7 @@ a {
     color: white;
 }
 
-#EzChineseImgHref {
+#GlowKidsImgHref {
     margin: -40px;
     padding-left: 30px;
     padding-right: 10px; 
@@ -94,13 +94,13 @@ a {
     padding-left: 210px;
 }
 
-#tatabahasaDescDiv{
+#grammarDescDiv{
     padding-top: 50px;
     padding-left: 200px;
     margin-right: 200px;
 }
 
-#tatabahasaH1{
+#grammarH1{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 30px;
     margin: 0px;
@@ -109,7 +109,7 @@ a {
     color: rgb(60, 60, 60);
 }
 
-#tatabahasaDescP{
+#grammarDescP{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
     color: rgb(154,154,154);
@@ -119,12 +119,12 @@ a {
     padding-bottom: 0px;
 }
 
-#pengucapanDescDiv1{
+#pronounciationDescDiv1{
     margin-top: 50px;
     padding-left: 200px;
 }
 
-#pengucapanH1{
+#pronounciationH1{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 30px;
     margin: 0px;
@@ -134,7 +134,7 @@ a {
     color: rgb(60, 60, 60);
 }
 
-#pengucapanDescP{
+#pronounciationDescP{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
     color: rgb(154,154,154);
