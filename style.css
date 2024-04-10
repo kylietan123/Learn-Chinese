@@ -34,7 +34,7 @@ a {
     border-top: solid 2px rgb(222, 222, 222);
 }
 
-#EzChineseP {
+#GlowKidsP {
     padding-top: 0px;
     float: left;
     /* border: solid red; */
@@ -45,7 +45,7 @@ a {
     color: white;
 }
 
-#EzChineseImgHref {
+#GlowKidsImgHref {
     margin: -40px;
     padding-left: 30px;
     padding-right: 10px; 
@@ -74,14 +74,14 @@ a {
     color: white;
 }
 
-/* BELAJAR BAHASA MANDARIN DENGAN MUDAH */
+/* LEARN MANDARIN EASILY */
 
-#BelajarBahasaMandarinDescDiv{
+#LearnMandarinDescDiv{
     padding-top: 160px;
     padding-left: 200px;
 }
 
-#BelajarBahasaMandarinH1{
+#LearnMandarinH1{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 30px;
     margin: 0px;
@@ -91,7 +91,7 @@ a {
     color: rgb(60, 60, 60);
 }
 
-#BelajarBahasaMandarinDescP{
+#LearnMandarinDescP{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
     color: rgb(154,154,154);
@@ -249,53 +249,6 @@ a {
     text-align: center;
     padding-bottom: 50px;
     clear: both;
-}
-
-    /* ===== TESTIMONIAL ===== */
-
-#TestimonialTitleH1{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 45px;
-    margin: 0px;
-    margin-top: 20px; 
-    padding-top: 30px; 
-    padding-bottom: 60px;
-    color: rgb(60, 60, 60);
-    text-align: center;
-    clear: both;
-}
-
-#TestimonialDescDiv {
-    text-align: center;
-}
-
-.testimonialDescP {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: bold;
-    color: rgb(60, 60, 60);
-    font-size: 16px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#TestimonialImgDiv {
-    padding-bottom: 50px;
-}
-
-.TestimonialImg {
-    width: 270px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.testimonialDiv{
-    /* border: solid red; */
-    border-radius: 10px ;
-    box-shadow: 0px 1px 9px  grey;
-    width: 270px;
-    height: 370px;
-    margin-left: 40px;
-    margin-top: 0px;
-    float: left;
 }
 
     /* ===== Footer ===== */
