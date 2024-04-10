@@ -25,7 +25,7 @@ a {
     border-top: solid 2px rgb(222, 222, 222);
 }
 
-#EzChineseP {
+#GlowKidsP {
     padding-top: 0px;
     float: left;
     /* border: solid red; */
@@ -36,7 +36,7 @@ a {
     color: white;
 }
 
-#EzChineseImgHref {
+#GlowKidsImgHref {
     margin: -40px;
     padding-left: 30px;
     padding-right: 10px; 
@@ -67,12 +67,12 @@ a {
 
         /* About */
 
-#BelajarBahasaMandarinDescDiv{
+#LearnMandarinDescDiv{
     padding-top: 50px;
     padding-left: 100px;
 }
 
-#BelajarBahasaMandarinH1{
+#LearnMandarinH1{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 30px;
     margin: 0px;
@@ -82,7 +82,7 @@ a {
     color: rgb(60, 60, 60);
 }
 
-#BelajarBahasaMandarinDescP{
+#LearnMandarinDescP{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: bold;
     color: rgb(154,154,154);
