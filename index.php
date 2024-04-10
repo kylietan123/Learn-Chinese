@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrasi</title>
+    <title>Registration</title>
     <style>
         @import url(headerFooter.css);
         @import url(fontSetting.css);
@@ -191,14 +191,14 @@ span.fontGrey{
 </div>
 
   <div class="footerPadding"></div>
-    <footer>
-    <address>
-        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2022 Ez Chinese</p>
-        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 08123456789</p>
-        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : ezchinese@gmail.com</p>
-        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @ezchinese</p>
-        <p class="footerP" > <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> EzChinese.com Jepara Tech Ltd. </p>
-    </address>
+  <footer>
+        <address>
+            <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2024 Glow Kids</p>
+            <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 0123456789</p>
+            <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : glowkids@gmail.com</p>
+            <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @glowkids</p>
+            <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> GlowKids.com Tech Ltd. </p>
+        </address>
     </footer>
 
 </body>
