@@ -251,6 +251,53 @@ a {
     clear: both;
 }
 
+ /* ===== Videos ===== */
+
+ #vidH1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 45px;
+    margin: 0px;
+    margin-top: 20px; 
+    padding-top: 30px; 
+    padding-bottom: 60px;
+    color: rgb(60, 60, 60);
+    text-align: center;
+    clear: both;
+}
+
+#VideoDescDiv {
+    text-align: center;
+}
+
+.vidDescP {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#VidImgDiv {
+    padding-bottom: 50px;
+}
+
+.VidImg {
+    width: 270px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.vidDiv{
+    /* border: solid red; */
+    border-radius: 10px ;
+    box-shadow: 0px 1px 9px  grey;
+    width: 270px;
+    height: 370px;
+    margin-left: 40px;
+    margin-top: 0px;
+    float: left;
+}
+
     /* ===== Footer ===== */
 
 footer {
