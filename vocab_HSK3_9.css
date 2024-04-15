@@ -15,7 +15,7 @@ header{
     background-color: rgb(35,83,144);
 }
 
-.pilihHSK{
+.selectHSK{
     
     border: none;
     cursor: pointer;
@@ -32,11 +32,11 @@ header{
     border-radius: 30px;
 }
 
-.pilihHSK:hover{
+.selectHSK:hover{
     background-color: rgb(51, 139, 220);
 }
 
-.pilihHSKA{
+.selectHSKA{
     color: white;
 }
 
@@ -58,7 +58,7 @@ a {
     border-top: solid 2px rgb(222, 222, 222);
 }
 
-#EzChineseP {
+#GlowKidsP {
     padding-top: 0px;
     float: left;
     /* border: solid red; */
@@ -69,10 +69,10 @@ a {
     color: white;
 }
 
-#EzChineseImgHref {
+#GlowKidsImgHref {
     margin: -40px;
     padding-left: 30px;
-    padding-right: 10px; 
+    padding-right: 50px; 
 }
 
 #navBar {
