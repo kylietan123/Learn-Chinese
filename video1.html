@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="video.css">
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字赋能中华经典学习</title>
+</head>
+ 
+<body>
+    <header>
+        <p id="GlowKidsP">
+            <a id="GlowKidsImgHref" href="index.html">
+                <object align="center" width="140px" height="110px" data="Pictures/logo.png"></object>
+            </a>    
+            Glow Kids
+        </p>
+        
+        <p id="navBar">
+            <a class="navbarPaddingLeft" href="index.html">Home       </a>
+            <a class="navbarPaddingLeft" href="courses.html">Courses       </a>
+            <a class="navbarPaddingLeft" href="superQuiz.html">Super Quiz       </a>
+            <a class="navbarPaddingLeft" href="about.html">About         </a>
+            <a class="navbarPaddingRightLeft" href="registration.html">Login</a>
+        </p>
+    </header>
+
+    <!--video-->
+    <div id="vidTest">
+        <h1 style="padding-top: 150px; text-align:center" >望庐山瀑布</h1>
+        <h2 style="text-align:center">唐 李白</h2>
+    </div>
+    <div id="videoBtn" class="center" style="max-width:700px;">
+        <video controls="false"  muted="muted" id="video1" name="media" style="width:700px; height: 400px;" text-align:"center">
+            <source src="Videos/vid1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <script>
+        var myVideo = document.getElementById("video1");
+        var videoBtn = document.getElementById("videoBtn");
+        myVideo.loop = true
+        videoBtn.onmouseleave = function () {
+            myVideo.pause();
+        }
+        videoBtn.onmousemove = function () {
+            myVideo.play();
+        }
+        function getVideoTime() {
+            if (document.getElementById('video1')) {
+                let videoPlayer = document.getElementById('video1');
+                videoPlayer.addEventListener('timeupdate', function () {
+                    console.log(`当前的时间点是${videoPlayer.currentTime},视频长度是${videoPlayer.duration}`);
+                    if (videoPlayer.currentTime > 11) {
+                        myVideo.pause();
+                        videoPlayer.currentTime = 0
+                    }
+                }, false)
+            }
+        }
+        getVideoTime();
+    </script>
+</body>
+ 
+</html>
