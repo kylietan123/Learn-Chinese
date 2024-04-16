@@ -136,7 +136,7 @@ span.fontGrey{
 <header>
         <p id="GlowKidsP">
             <a id="GlowKidsImgHref" href="index.html">
-                <object align="center" width="140px" height="110px" data="Pictures/Billy In Hat.png"></object>
+                <object align="center" width="140px" height="110px" data="Pictures/logo.png"></object>
             </a>    Glow Kids
         </p>
         
