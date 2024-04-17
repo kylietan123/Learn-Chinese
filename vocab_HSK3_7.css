@@ -140,7 +140,7 @@ tr, td {
     padding-right: 60px
 }
 
-#daftarKosakata{
+#vocabList{
     margin-left: 25%;
     font-size: 40px;
 }
@@ -150,7 +150,7 @@ tr, td {
     padding-bottom: 50px;
 }
 
-#halamanSelanjutnya {
+#nextPage {
     margin-left: 475px;
 }
 
